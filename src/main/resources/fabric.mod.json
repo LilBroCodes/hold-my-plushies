@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hold_my_plushies",
+  "version": "${version}",
+  "name": "Hold My Plushies",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hold_my_plushies/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.lilbrocodes.hold_my_plushies.client.HoldMyPlushiesClient"
+    ],
+    "main": [
+      "org.lilbrocodes.hold_my_plushies.HoldMyPlushies"
+    ]
+  },
+  "mixins": [
+    "hold_my_plushies.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
