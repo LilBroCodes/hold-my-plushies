@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "composer_reloaded:plush",
+      "required": false
+    },
+    {
+      "id": "composer:plush",
+      "required": false
+    },
+    {
+      "id": "husky:max_plush",
+      "required": false
+    },
+    {
+      "id": "ratatouille:folly_plush",
+      "required": false
+    },
+    {
+      "id": "ratatouille:rat_maid_plush",
+      "required": false
+    },
+    {
+      "id": "ratatouille:mauve_plush",
+      "required": false
+    },
+    {
+      "id": "#hexed:plushies",
+      "required": false
+    }
+  ]
+}

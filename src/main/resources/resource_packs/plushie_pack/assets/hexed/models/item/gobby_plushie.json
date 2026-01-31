@@ -1,13 +1,13 @@
 {
-  "parent": "composer_reloaded:block/plush",
+  "parent": "hexed:block/plushies/gobby_plushie",
   "display": {
     "thirdperson_righthand": {
-      "rotation": [44.25, -90, 0],
+      "rotation": [44.25, 0, 0],
       "translation": [-6, -1.25, 0],
       "scale": [0.75, 0.75, 0.75]
     },
     "thirdperson_lefthand": {
-      "rotation": [44.25, 90, 0],
+      "rotation": [44.25, 0, 0],
       "translation": [-6, -1.25, 0],
       "scale": [0.75, 0.75, 0.75]
     },
@@ -25,14 +25,8 @@
       "translation": [0, 3, 0],
       "scale": [0.25, 0.25, 0.25]
     },
-    "gui": {
-      "rotation": [25, 125, 0],
-      "translation": [0, 0.15, 0],
-      "scale": [0.70, 0.70, 0.70]
-    },
     "head": {
-      "translation": [0, 14.25, -1],
-      "rotation": [0, -90, 0]
+      "translation": [0, 14.25, -1]
     },
     "fixed": {
       "scale": [0.5, 0.5, 0.5]

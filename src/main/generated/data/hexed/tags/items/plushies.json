@@ -1,0 +1,113 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hexed:assistance_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:bonfire_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:bread_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:calamaidas_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:chronos_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:crafter_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:den_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:eternal_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:fzzy_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:gobby_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:josh_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:kami_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:maggie_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:milkyfur_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:monk_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:nightfall_solace_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:phoenix_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:reader_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:silver_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:solace_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:tenno_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:tiger_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:toboe_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:tollish_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:wagon_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:yirmiri_plushie",
+      "required": false
+    },
+    {
+      "id": "hexed:zarra_plushie",
+      "required": false
+    }
+  ]
+}

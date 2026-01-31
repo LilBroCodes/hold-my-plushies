@@ -1,5 +1,5 @@
 {
-  "parent": "composer_reloaded:block/plush",
+  "parent": "husky:block/max_plush",
   "display": {
     "thirdperson_righthand": {
       "rotation": [44.25, -90, 0],

@@ -5,10 +5,6 @@ import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.client.render.entity.model.PlayerEntityModel;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.tag.TagKey;
-import org.lilbrocodes.hold_my_plushies.HoldMyPlushies;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -17,9 +13,10 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import static org.lilbrocodes.hold_my_plushies.HoldMyPlushies.PLUSHIES;
+
 @Mixin(PlayerEntityModel.class)
 public class PlayerEntityModelMixin<T extends LivingEntity> extends BipedEntityModel<T> {
-    @Unique private static final TagKey<Item> PLUSHIES = TagKey.of(Registries.ITEM.getKey(), HoldMyPlushies.identify("plushies"));
     @Shadow @Final public ModelPart leftSleeve;
     @Shadow @Final public ModelPart rightSleeve;
 

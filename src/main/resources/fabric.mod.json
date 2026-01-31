@@ -15,8 +15,11 @@
   "contact": {},
   "license": "CC-BY-NC-SA 2.0",
   "icon": "assets/hold_my_plushies/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "org.lilbrocodes.hold_my_plushies.HoldMyPlushiesDataGenerator"
+    ],
     "client": [
       "org.lilbrocodes.hold_my_plushies.client.HoldMyPlushiesClient"
     ],
